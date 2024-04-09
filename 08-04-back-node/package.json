@@ -9,7 +9,7 @@
   "description": "Prática node",
   "main": "app.js",
   "scripts": {
-    "dev": "node --watch app.mjs",
+    "dev": "node app.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samyra",
