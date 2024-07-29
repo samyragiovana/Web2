@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.3",
+    "sequelize": "^6.37.2"
+  },
+  "name": "atividade5e6-back",
+  "version": "1.0.0",
+  "description": "Atividades",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samyra",
+  "license": "ISC",
+  "devDependencies": {}
+}
