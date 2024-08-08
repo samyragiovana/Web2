@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Teste</title>
+    <link rel="stylesheet" href="veiculo.css">
+</head>
+
+<body>
+    <header>
+        <h1>LISTAGEM DE VEÍCULOS</h1>
+        <a href="../index.html">Início</a> 
+        <a href="../logout/logout.html">Logout</a><br><br>
+    </header>
+    <main>
+        <h2>Listagem</h2>
+        <button id="btNovo">Novo</button>
+        <table border="1">
+            <thead>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>FABRICANTE</th>
+                        <th>MODELO</th>
+                        <th>COR</th>
+                        <th>LISTAGEM</th>
+                        <th>AÇÕES</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+    <div id="modal">
+        <form action="">
+            <input type="hidden" name="id" id="id"><br>
+
+            <label for="fabricante">Fabricante</label><br>
+            <input type="text" name="fabricante" id="fabricante"><br>
+
+            <label for="modelo">Modelo</label><br>
+            <input type="text" name="modelo" id="modelo"><br>
+
+            <label for="cor">Cor</label><br>
+            <input type="text" name="cor" id="cor"><br>
+
+            <label for="litragem">Listagem</label><br>
+            <input type="text" name="litragem" id="litragem"><br>
+            
+            <button>Salvar</button>
+        </form>
+    </div>
+    
+</body>
+<script type="module" src="veiculo.js"></script>
+</html>
